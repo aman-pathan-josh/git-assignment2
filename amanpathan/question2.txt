@@ -1,0 +1,4 @@
+Q 2. What does the git `ls-files` command do, and what information does its output provide regarding the state of files in a Git repository?
+
+This command lists all the files that are currently being tracked in the Git repository.
+It provides information about state of files in staging area and working directory like staged, unstaged, modified,etc.

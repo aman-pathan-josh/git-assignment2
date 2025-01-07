@@ -1,0 +1,17 @@
+Q 5.How to un-stage changes from the staged area. write command for it.
+
+Two commands can be used : `git restore` and `git reset`
+
+1. Using `git restore`
+
+`git restore --staged <filename>
+
+2. Using `git reset`
+
+`git reset <filename>`
+
+Unstage all changes:
+
+`git reset` or
+
+`git restore --staged .`
